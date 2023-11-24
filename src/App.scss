@@ -1,0 +1,443 @@
+.tester-wrapper {
+  width: 100%;
+  height: 100vh;
+  background-color: #2e2727;
+
+  .logout-button {
+    height: 50px;
+    width: 150px;
+    margin-top: 10px;
+    margin-left: 80%;
+    background-color: #443620;
+    font-size: 16px;
+    font-family: "Copperplate Gothic Bold", "Copperplate Gothic Light";
+    color: #e6d9c6;
+    border-radius: 12px;
+    border: none;
+  }
+
+  .table-wrapper {
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    padding: 50px;
+    border: 2px dashed #e6d9c6;
+    border-radius: 10px;
+    text-align: center;
+    align-items: center;
+
+    table {
+      font-family: "Copperplate Gothic Bold", "Copperplate Gothic Light";
+      color: #e6d9c6;
+      border: 5px solid #e6d9c6;
+      width: 70%;
+      margin-left: auto;
+      margin-right: auto;
+
+      td,
+      th {
+        border: 1px solid #e6d9c6;
+        text-align: left;
+        padding: 16px;
+      }
+
+      tr:nth-child(even) {
+        background-color: #807070;
+      }
+
+      button {
+        color: white;
+        width: 120px;
+        border: none;
+        border-radius: 10px;
+        background-color: #755829;
+      }
+
+      input {
+        width: 80%;
+        background-color: #c9ad81;
+        border: none;
+        margin-top: 16px;
+        // margin-top: 10px;
+        align-items: center;
+      }
+
+      p {
+        height: 10px;
+      }
+    }
+  }
+}
+
+.worker-wrapper {
+  width: 100%;
+  height: 100vh;
+  background-color: #2e2727;
+  padding: 50px;
+
+  // margin: 0 auto;
+  // padding: 40px;
+  // max-width: 1200px;
+  .head-container {
+    display: flex;
+
+    p {
+      margin-left: 50px;
+      font-size: 30px;
+      font-family: "Copperplate Gothic Bold", "Copperplate Gothic Light";
+      color: #e6d9c6;
+      // text-underline-position: below;
+    }
+
+    button {
+      height: 50px;
+      width: 120px;
+      margin-top: 10px;
+      margin-left: 80%;
+      background-color: #443620;
+      font-size: 22px;
+      font-family: "Copperplate Gothic Bold", "Copperplate Gothic Light";
+      color: #e6d9c6;
+      border-radius: 12px;
+      border: none;
+    }
+  }
+
+  .table-wrapper {
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    padding: 50px;
+    border: 2px dashed #e6d9c6;
+    border-radius: 10px;
+    text-align: center;
+    align-items: center;
+
+    table {
+      font-family: "Copperplate Gothic Bold", "Copperplate Gothic Light";
+      color: #e6d9c6;
+      border: 5px solid #e6d9c6;
+      width: 70%;
+      margin-left: auto;
+      margin-right: auto;
+
+      td,
+      th {
+        border: 1px solid #e6d9c6;
+        text-align: left;
+        padding: 16px;
+      }
+
+      tr:nth-child(even) {
+        background-color: #807070;
+      }
+
+      button {
+        width: 80px;
+        border: none;
+        border-radius: 10px;
+      }
+    }
+  }
+}
+
+.client-wrapper {
+  width: 100%;
+  height: 100vh;
+  background-color: #2e2727;
+  text-align: center;
+  padding-bottom: 50px;
+
+  .head-container {
+    height: 50px;
+    width: 120px;
+    margin-top: 10px;
+    margin-left: 80%;
+    background-color: #443620;
+    font-size: 22px;
+    font-family: "Copperplate Gothic Bold", "Copperplate Gothic Light";
+    color: #e6d9c6;
+    border-radius: 12px;
+    border: none;
+  }
+
+  .main-wrapper {
+    display: flex;
+
+    .left-section {
+      width: 60%;
+      margin-left: 0px;
+
+      .upload-section {
+        display: flex;
+        justify-content: space-around;
+        margin: 30px 50px 16px 16px;
+        width: 100%;
+        height: 60%;
+        border: 2px dashed #e6d9c6;
+        border-radius: 10px;
+        padding: 20px;
+
+        .upload-front {
+          display: inline;
+          width: 40%;
+
+          text-align: center;
+
+          img {
+            margin: 8px 8px 8px 8px;
+            width: 80%;
+            height: 95%;
+            cursor: pointer;
+            border-radius: 20px;
+          }
+
+          button {
+            width: 150px;
+            height: 40px;
+            margin-top: 10px;
+            background-color: #443620;
+            color: rgb(163, 150, 150);
+            font-size: 18px;
+            font-family: "Copperplate Gothic Bold", "Copperplate Gothic Light";
+            border-radius: 20px;
+            border: none;
+          }
+        }
+      }
+
+      button {
+        width: 150px;
+        height: 40px;
+        margin-top: 10px;
+        background-color: #443620;
+        color: rgb(163, 150, 150);
+        font-size: 18px;
+        font-family: "Copperplate Gothic Bold", "Copperplate Gothic Light";
+        border-radius: 20px;
+        border: none;
+      }
+
+      .progress-section {
+        margin: 32px 16px 16px 16px;
+        height: 20%;
+        width: 100%;
+        border: 2px dashed #e6d9c6;
+        border-radius: 10px;
+        padding: 20px;
+
+        .progress-bar {
+          display: flex;
+          flex-direction: row;
+          margin: 32px 32px 16px 16px;
+          align-items: center;
+
+          .step {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+
+            .status-symbol {
+              width: 30px;
+              height: 30px;
+              line-height: 30px;
+              border-radius: 50%;
+              text-align: center;
+              font-size: 20px;
+            }
+
+            .step-label {
+              margin-top: 5px;
+              color: #c1b19c;
+              font-size: 18px;
+              font-family: "Copperplate Gothic Bold", "Copperplate Gothic Light";
+            }
+          }
+
+          .connector {
+            height: 2px;
+            background-color: gray;
+            flex-grow: 1;
+
+            .completed {
+              background-color: green;
+            }
+          }
+        }
+      }
+    }
+
+    .preview-wrapper {
+      width: 30%;
+      border: 2px dashed #e6d9c6;
+      border-radius: 10px;
+      margin: 30px 0 50px 100px;
+      color: white;
+      overflow: hidden;
+    }
+  }
+}
+
+.welcome-wrapper {
+  background-color: #050505;
+
+  .background-image-div {
+    display: flex;
+    background-image: url("assets/landing_page_1.jpg");
+    /* Path to your image */
+    background-size: cover;
+    /* Cover the entire div */
+    background-position: center;
+    /* Center the image */
+    background-repeat: no-repeat;
+    /* Prevent image repeating */
+    height: 100vh;
+    /* Set a specific height */
+    width: 100%;
+    /* Set width (example: full width) */
+  }
+
+  a {
+    color: #e6d9c6;
+    font-size: 20px;
+    font-family: "Copperplate Gothic Bold", "Copperplate Gothic Light";
+    margin-top: 50px;
+    // gap: 30px;
+  }
+}
+
+.login-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding: 200px;
+  background-image: url("assets/Login.jpg");
+  /* Path to your image */
+  background-size: cover;
+  /* Cover the entire div */
+  background-position: center;
+  /* Center the image */
+  background-repeat: no-repeat;
+  /* Prevent image repeating */
+  height: 100vh;
+  /* Set a specific height */
+  width: 100%;
+  /* Set width (example: full width) */
+
+  .input-wrapper {
+    height: 30%;
+
+    input {
+      width: 40%;
+      height: 50px;
+      margin-left: 45%;
+      margin-top: 50px;
+      border-radius: 8px;
+      background-color: #e6d9c6;
+    }
+  }
+
+  .button-wrapper {
+    display: flex;
+    flex-direction: row;
+    /* Aligns children horizontally */
+    justify-content: center;
+    /* Centers children horizontally */
+    align-items: center;
+    /* Centers children vertically */
+    margin-top: 130px;
+    margin-left: 60px;
+
+    button {
+      background-color: #443620;
+      font-size: 22px;
+      font-family: "Copperplate Gothic Bold", "Copperplate Gothic Light";
+      color: #e6d9c6;
+      width: 15%;
+      height: 48px;
+      border-radius: 12px;
+      border: none;
+      margin-left: 400px;
+      /* Adds margin to left and right for spacing */
+    }
+
+    p {
+      color: #dddddd;
+      font-size: 18px;
+      font-family: "Copperplate Gothic Bold", "Copperplate Gothic Light";
+      margin-left: 30px;
+      /* Adds margin to left and right for spacing */
+    }
+  }
+}
+
+.register-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding: 200px;
+  background-image: url("assets/Login.jpg");
+  /* Path to your image */
+  background-size: cover;
+  /* Cover the entire div */
+  background-position: center;
+  /* Center the image */
+  background-repeat: no-repeat;
+  /* Prevent image repeating */
+  height: 100vh;
+  /* Set a specific height */
+  width: 100%;
+  /* Set width (example: full width) */
+
+  .input-wrapper {
+    height: 30%;
+
+    input {
+      width: 40%;
+      height: 50px;
+      margin-left: 45%;
+      margin-top: 50px;
+      border-radius: 8px;
+      background-color: #e6d9c6;
+    }
+  }
+
+  .button-wrapper {
+    display: flex;
+    flex-direction: row;
+    /* Aligns children horizontally */
+    justify-content: center;
+    /* Centers children horizontally */
+    align-items: center;
+    /* Centers children vertically */
+    margin-top: 100px;
+    margin-left: 60px;
+
+    button {
+      background-color: #443620;
+      font-size: 22px;
+      font-family: "Copperplate Gothic Bold", "Copperplate Gothic Light";
+      color: #e6d9c6;
+      width: 15%;
+      height: 48px;
+      border-radius: 12px;
+      border: none;
+      margin-left: 400px;
+      /* Adds margin to left and right for spacing */
+    }
+
+    p {
+      color: #dddddd;
+      font-size: 18px;
+      font-family: "Copperplate Gothic Bold", "Copperplate Gothic Light";
+      margin-left: 30px;
+      /* Adds margin to left and right for spacing */
+    }
+  }
+}
+
+button {
+  cursor: pointer;
+}
