@@ -1,5 +1,4 @@
 .tester-wrapper {
-  width: 100%;
   height: 100vh;
   background-color: #2e2727;
 
@@ -71,16 +70,15 @@
 }
 
 .worker-wrapper {
-  width: 100%;
   height: 100vh;
   background-color: #2e2727;
-  padding: 50px;
 
   // margin: 0 auto;
   // padding: 40px;
   // max-width: 1200px;
   .head-container {
     display: flex;
+    padding-top: 50px;
 
     p {
       margin-left: 50px;
@@ -144,16 +142,14 @@
 }
 
 .client-wrapper {
-  width: 100%;
   height: 100vh;
   background-color: #2e2727;
   text-align: center;
-  padding-bottom: 50px;
 
   .head-container {
     height: 50px;
     width: 120px;
-    margin-top: 10px;
+    margin-top: 30px;
     margin-left: 80%;
     background-color: #443620;
     font-size: 22px;
@@ -165,6 +161,9 @@
 
   .main-wrapper {
     display: flex;
+    width: 80vw;
+    height: 80vh;
+    margin: auto;
 
     .left-section {
       width: 60%;
@@ -312,7 +311,6 @@
   display: flex;
   flex-direction: column;
   justify-content: space-around;
-  padding: 200px;
   background-image: url("assets/Login.jpg");
   /* Path to your image */
   background-size: cover;
@@ -328,6 +326,7 @@
 
   .input-wrapper {
     height: 30%;
+    padding-top: 100px;
 
     input {
       width: 40%;
@@ -377,7 +376,6 @@
   display: flex;
   flex-direction: column;
   justify-content: space-around;
-  padding: 200px;
   background-image: url("assets/Login.jpg");
   /* Path to your image */
   background-size: cover;
@@ -393,6 +391,7 @@
 
   .input-wrapper {
     height: 30%;
+    padding-top: 100px;
 
     input {
       width: 40%;

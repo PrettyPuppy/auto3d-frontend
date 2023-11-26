@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { NavLink } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 
 const Login = () => {
   const [username, setUsername] = useState("");
@@ -54,7 +54,7 @@ const Login = () => {
         </div>
         <div className="button-wrapper">
         <button onClick={handleSubmit}>Login</button>
-        <p>Don't you have an account? <a href="/register">Register</a></p>
+        <p>Don't you have an account? <Link to="/register">Register</Link></p>
         </div>
 
     </div>

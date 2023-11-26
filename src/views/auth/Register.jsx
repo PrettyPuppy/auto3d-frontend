@@ -1,5 +1,5 @@
 import React, { useState, useNavigate } from "react";
-import { NavLink } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 import axios from "axios";
 
 export default function Register() {
@@ -60,7 +60,7 @@ export default function Register() {
         </div>
         <div className="button-wrapper">
         <button onClick={handleSubmit}>Register</button>
-        <p>Do you have an account? &nbsp;&nbsp;&nbsp; <a href="/login">Login</a></p>
+        <p>Do you have an account? &nbsp;&nbsp;&nbsp; <Link to="/login">Login</Link></p>
         </div>
     </div>
   );
